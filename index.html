@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/71e9073243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburguer"></span>
+        </button>
+        <nav class="navi">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hello 👋, I am Vania Carlos</h1>
+        <p class="section__subtitle section__subtitle--intro">Data analyst jr</p>
+        <img class="intro__img" src="./img/portfolio-02.jpg">
+    
+    </section>
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About me</h2>
+        <p class="section__subtitle section__subtitle--about">Data Analyst jr</p>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-md-8 about-me__body">
+                    <p>My name is Vania Carlos 👩🏻‍💻, Industrial and Commercial Engineer with experience in the implementation of Process Management 💻 and Quality Management Systems and I am currently making a career change.</p>
+                    <p>Last year, I did a Bootcamp where I learned programming and I would like to take on new responsibilities in terms of data analysis and use different tools such as: Excel, SQL 🐬, Tableau, Power Bi, Looker and Python 🐍.</p>
+                    <p>I am passionate about technology 🤖, data visualization, continuous improvement, continuous learning 📚 and I would like to have a job opportunity where I can demonstrate my analytical skills 📊, problem solving, teamwork, creativity, leadership, commitment and organization.</p>
+                    <p>In this sense, my objective is to develop my professional career in data analytics, being part of an organization aligned with my objectives 🎯 and values ​​✨ where I can continue to grow, learn, share, innovate and add value in the tasks entrusted.</p>
+                </div>
+                <div class="col-md-4 about-me__img">
+                    <img class="foto" src="./img/pic.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projects-->
+    <section class="my-projects" id="projects" >
+        <h2 class="section__title section__title--myprojects">My projects</h2>
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="img-1"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Mental Health</h5>
+                      <p class="card-text">I analyzed the data from a survey carried out in 2018 using SQL queries.</p>
+                      <a href="https://github.com/Risseii/MentalHealth/blob/main/notebook_Mental_health.ipynb" target="_blank" class="btn btn-secondary">Ver proyecto</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="img-2"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Funnel SQL</h5>
+                      <p class="card-text">I made queries with SQL to deepen the customer's purchase cycle.</p>
+                      <a href="https://docs.google.com/presentation/d/1lieRpN2QZpo8Yeu9RgljtYKY8Hj3Wtqa/edit?usp=share_link&ouid=100030223901947909932&rtpof=true&sd=true" target="_blank" class="btn btn-secondary">Ver proyecto</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="img-3"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Web Scrapping</h5>
+                      <p class="card-text">I implemented a web srapping of the Hacker news page to obtain the titles, links and ranking.</p>
+                      <a href="https://github.com/Risseii/news_webscrapping/blob/main/main.py" target="_blank" class="btn btn-secondary">Ver proyecto</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="img-4"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">A/B testing</h5>
+                      <p class="card-text">I analyzed ShoeFly data with Python to determine the best ad.</p>
+                      <a href="https://github.com/Risseii/A-B_testing/blob/master/shoefly.py" target="_blank" class="btn btn-secondary">Ver proyecto</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="img-5"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Tableau</h5>
+                      <p class="card-text">Portfolio with several visualizations made in Tableau.</p>
+                      <a href="https://public.tableau.com/app/profile/vania3060" target="_blank" class="btn btn-secondary">Ver proyecto</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <!--<img src="..." class="card-img-top" alt="img-6"> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Power BI</h5>
+                      <p class="card-text">Portfolio with multiple visualizations made in Power BI.</p>
+                      <a href="https://www.novypro.com/profile_projects/vaniacarlos" target="_blank" class="btn btn-secondary">Ver proyecto</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:vanibel267@gmail.com" class="footer-link">vanibel267@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/vaniacarlos/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://public.tableau.com/app/profile/vania3060" target="_blank">
+                    <i class="fa-regular fa-chart-bar"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Risseii/" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
