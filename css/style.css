@@ -206,6 +206,10 @@ section {
     background: linear-gradient(rgb(245, 217, 222),rgb(253, 221, 237));
 }
 
+.card-title{
+    font-weight: bold;
+}
+
 .col-4.about-me__img {
     padding: 1.5rem 0.8rem;
 }
