@@ -1,5 +1,8 @@
 body{
-    font-family: 'Shantell Sans', cursive !important;
+    font-family: "Quicksand" !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
 }
 
@@ -136,6 +139,7 @@ section {
 
 .section__subtitle--about{
     padding: 0px 12px;
+    font-weight: bold;
 }
 
 /* footer */
@@ -203,7 +207,8 @@ section {
 }
 
 .card-body{
-    background: linear-gradient(rgb(245, 217, 222),rgb(253, 221, 237));
+    background: linear-gradient(to bottom right, #fce4ec, #e1bee7);
+      
 }
 
 .card-title{
@@ -336,7 +341,9 @@ section {
      .card{
         margin: 0 auto;
         width: 18rem;
-        box-shadow: 5px 5px 5px gray;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra más difusa y clara */
+        border-radius: 1rem; /* bordes redondeados para suavidad */
+        background-color: white; /* contraste elegante con el fondo */
      }
 
 }
