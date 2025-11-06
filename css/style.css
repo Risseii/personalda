@@ -116,6 +116,7 @@ header{
 
 .intro {
     position: relative;
+    padding-bottom: 20px;
 
 }
 
@@ -220,10 +221,11 @@ section {
 }
 
 .about-me{
-    padding-bottom: 1rem;
+    padding-bottom: 0.4rem;
 }
 
 .my-projects{
+    padding-top: 0.5rem;
     padding-bottom: 3rem;
 }
 
@@ -322,7 +324,7 @@ section {
     .about-me,.my-projects{
         max-width: 1000px;
         margin: 0 auto;
-        padding-top: 1.5rem;
+        padding-top: 1.2rem;
     }
 
     .container{
